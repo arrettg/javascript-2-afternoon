@@ -14,7 +14,9 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me = {name: Garrett,
+age : 24};
+alert (me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -23,14 +25,22 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings = {
+  band: "Cold Play",
+  food: "Pizza",
+  person: "Olena",
+  book: "Harry Potter",
+  movie: "Pulp Fiction",
+  holiday: "Christmas",
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = "Mustang"
+favoriteThings.brand = "Nike"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
