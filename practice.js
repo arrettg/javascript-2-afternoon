@@ -14,8 +14,10 @@
   Then alert your name using dot notation.
 */
 
-let me = {name: Garrett,
-age : 24};
+let me = {
+  name: "Garrett",
+  age : 24
+};
 alert (me.name)
 
 ////////// PROBLEM 2 //////////
@@ -63,8 +65,8 @@ favoriteThings.book = "Harry Potter"
 let backPack = {
 
 }
-let item = "firstPock"
-backPack[item = "chapstick"]
+let item = "firstPocket"
+backPack[item ] = "chapstick"
 backPack.color= "black"
 
 /*
@@ -101,7 +103,7 @@ var user2 = {
 */
 
 user2.name="Bryan G. Smith"
-user2.email="bryansmith@devmounta.in"
+user2.email="bryan.smith@devmounta.in"
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -121,20 +123,21 @@ let methodCollection = {
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
-methodCollection.function alertHello(){return alert("hello")
+methodCollection[function alertHello(){
+  return alert("hello")
 
-}
-methodCollection.function logHello(){
+}]
+methodCollection[function logHello(){
   return console.log("hello")
-}
+}]
 
 
 /*
   Now call your alertHello and logHello methods.
 */
 
-methodCollection.function alertHello()
-methodCollection.function logHello()
+ alertHello()
+ logHello()
 
 ////////// PROBLEM 6 //////////
 
